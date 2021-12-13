@@ -58,3 +58,72 @@ body {
   text-decoration: none;
   color: #fff;
 }
+
+.main {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  padding-top: 54px;
+}
+
+.home-image path {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.home-image path:hover {
+  opacity: 1;
+}
+
+.main-info {
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 67px;
+  padding-bottom: 67px;
+}
+
+.counter-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter-button {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.main-title {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 37px;
+  line-height: 44px;
+  text-transform: uppercase;
+  color: #635854;
+}
+
+.counter {
+  font-family: "Oswald", sans-serif;
+  font-size: 110px;
+  line-height: 120px;
+  color: #635854;
+  margin-bottom: 10px;
+}
+
+.button-primary {
+  background: #3596f5;
+  border-radius: 6px;
+  color: #fff;
+  padding: 16px 36px;
+  cursor: pointer;
+  border: none;
+}
+
+.button-primary:hover {
+  box-shadow: 0px 2px 20px #3596f5;
+}
